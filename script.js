@@ -15,7 +15,7 @@ function staticLoadPlaces() {
 		{
 			name: "Arvore2",
 			location: {
-				lat: 39.39783311287452, 
+				lat: 39.39783311287452,
 				lng: -8.981492843193394,
 			},
 		},
@@ -50,10 +50,10 @@ function renderPlaces(places) {
 		);
 		// model.setAttribute("position", "0 20 0");
 		model.setAttribute("position", {
-			x : 0,
-			y : 0,
+			x: 0,
+			y: -5,
 			z: 0
-		} );
+		});
 		model.setAttribute("gltf-model", "./assets/asset.gltf");
 		model.setAttribute("rotation", "0 180 0");
 		model.setAttribute("scale", "10 10 10");
