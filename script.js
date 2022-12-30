@@ -19,6 +19,20 @@ function staticLoadPlaces() {
 				lng: -8.981492843193394,
 			},
 		},
+		{
+			name: "Arvore3",
+			location: {
+				lat: 39.39774116820861,
+				lng: -8.981525131199971,
+			},
+		},
+		{
+			name: "Arvore4",
+			location: {
+				lat: 39.397586133552444,
+				lng: -8.98147651591441,
+			},
+		},
 	];
 }
 
