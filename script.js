@@ -34,7 +34,12 @@ function renderPlaces(places) {
 			"gps-new-entity-place",
 			`latitude: ${latitude}; longitude: ${longitude};`
 		);
-		model.setAttribute("position", "0 0 0");
+		// model.setAttribute("position", "0 20 0");
+		model.setAttribute("position", {
+			x : 0,
+			y : 20,
+			z: 0
+		} );
 		model.setAttribute("gltf-model", "./assets/asset.gltf");
 		model.setAttribute("rotation", "0 180 0");
 		model.setAttribute("scale", "10 10 10");
