@@ -8,8 +8,8 @@ function staticLoadPlaces() {
 		{
 			name: "Arvore",
 			location: {
-				lat: 39.39762758763295,
-				lng: -8.981564358264338,
+				lat: 39.39774116820861,
+				lng: -8.981525131199971,
 			},
 		},
 		{
@@ -31,13 +31,13 @@ function renderPlaces(places) {
 
 		let model = document.createElement("a-entity");
 		model.setAttribute(
-			"gps-entity-place",
+			"gps-new-entity-place",
 			`latitude: ${latitude}; longitude: ${longitude};`
 		);
 		// model.setAttribute("position", "0 20 0");
 		model.setAttribute("position", {
 			x : 0,
-			y : 20,
+			y : 0,
 			z: 0
 		} );
 		model.setAttribute("gltf-model", "./assets/asset.gltf");
